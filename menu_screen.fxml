@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="715.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalstickhero.menuController">
+    <children>
+        <ImageView fitHeight="715.0" fitWidth="600.0" opacity="0.86" pickOnBounds="true">
+            <image>
+                <Image url="@backgroundImage.jpg" />
+            </image></ImageView>
+        <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#switch2PlayScreen" opacity="0.53" prefHeight="56.0" prefWidth="175.0" text="PLAY!">
+            <font>
+                <Font size="25.0" />
+            </font>
+        </Button>
+        <Button layoutX="213.0" layoutY="16.0" mnemonicParsing="false" onAction="#loadSavedGame" opacity="0.57" prefHeight="56.0" prefWidth="175.0" text="Saved Games">
+            <font>
+                <Font size="23.0" />
+            </font>
+        </Button>
+        <Button layoutX="399.0" layoutY="16.0" mnemonicParsing="false" opacity="0.53" prefHeight="39.0" prefWidth="190.0" text="SKINS">
+            <font>
+                <Font size="26.0" />
+            </font>
+        </Button>
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#000307" height="307.0" layoutX="63.0" layoutY="408.0" stroke="BLACK" strokeType="INSIDE" width="167.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1b1b1b" height="299.0" layoutX="436.0" layoutY="412.0" stroke="BLACK" strokeType="INSIDE" width="95.0" />
+        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#f20c36" height="14.0" layoutX="477.0" layoutY="412.0" stroke="BLACK" strokeType="INSIDE" width="14.0" />
+        <ImageView fitHeight="117.0" fitWidth="71.0" layoutX="130.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@stickman.png" />
+            </image>
+        </ImageView>
+    </children>
+</AnchorPane>
